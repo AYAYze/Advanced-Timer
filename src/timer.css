@@ -1,0 +1,87 @@
+/* Timer All wrap */
+
+.timer {
+    width: 500px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* Timer Title section */
+
+.title {
+    width: 100%;
+    display:flex;
+    background-color: rgb(80, 48, 36);
+}
+
+.timer-name {
+    background-color: rgba(255, 255, 255, 0);
+    text-align:center;
+    padding: 8px;
+    color:white;
+    font-size:20px;
+    flex:1;
+    overflow: auto;
+}
+
+.timer-in-action {
+    background-color: rgb(169, 137, 172);
+}
+
+.remover {
+    line-height:43px;
+    z-index:10;
+    user-select: none;
+    background-color: rgba(255, 255, 255, 0);
+    font-size:30px;
+    color:white;
+    padding-right: 5px;
+}
+
+/* Time section */
+
+.time {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #bfcad3;
+    color:white;
+    line-height: 43px;
+    user-select: none;
+}
+
+.time input {
+    width:0px;
+    flex:1;
+    border:none;
+    text-align: center;
+    font-size:20px;
+    color:white;
+    background-color:rgba(255, 255, 255, 0);
+    padding:10px;
+    outline:none;
+}
+
+/* Timer Control  */
+
+.control {
+    display: flex;
+    width:100%;
+    justify-content: center;
+    background-color: #8d2a2a;
+}
+
+.control button {
+    width:0px;
+    flex:1;
+    border:none;
+    background-color: rgba(255,255,255,0);
+    color:white;
+    padding:10px;
+    outline:none;
+    user-select: none;
+}
+
+.control button:hover {
+    background-color: #681a1a;
+}
